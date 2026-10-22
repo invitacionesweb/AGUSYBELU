@@ -249,7 +249,17 @@ main img {
     margin: 0;
     color: var(--color-secundario);
 }
+ .boton2 {
+    border: 1px solid var(--color-principal);
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    padding: 10px 30PX;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: var(--font-principal);
+    border-radius: 50PX;
 
+ }
 
 /*FORMS*/
 .forms {
@@ -422,11 +432,12 @@ font-family: 'Inter', sans-serif;
   resize: vertical;
   min-height: 80px;
 }
-.forms .boton {
+.forms .boton2 {
     font-size: 1.4rem;
     margin: auto;
     width: 90%;
     font-family: var(--font-principal);
+    
 }
 
 /*INFO X BLOQUES*/
@@ -492,17 +503,7 @@ font-family: 'Inter', sans-serif;
 
  }
 
- .boton2 {
-    border: 1px solid var(--color-principal);
-    background-color: var(--color-secundario);
-    color: var(--color-principal);
-    padding: 10px 30PX;
-    text-decoration: none;
-    font-size: 1em;
-    font-family: var(--font-principal);
-    border-radius: 50PX;
 
- }
 
 /* El :hover solo se activa en dispositivos con mouse real (desktop).
    Así en celular/tablet (touch) el primer toque va directo al click,
